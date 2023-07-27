@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.main_div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.puppy_name_list{
+  display: flex;
+  background-color: #4cc9f0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .1rem;
+  border-radius: .3rem;
+  flex-direction: column;
+}
+
+.featured_puppy_view{
+  display: flexbox;
+}
+
+.featured_puppy_list{
+  margin-left: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: .2rem;
+  background-color: #4361ee;
+  padding: .2rem;
+  
+  
+}
+
+.featured_puppy_name {
+  text-align: center;
+  font-size: larger;
+  margin-left: 1rem;
+  padding: .2rem;
+  background-color: #f72585;
+  border-radius: .5rem;
+}
+
+.puppy_names_view {
+  background-color: #3a0ca3;
+  border-radius: .2rem;
+}
+
+.read-the-docs {
+  color: #888;
+}
