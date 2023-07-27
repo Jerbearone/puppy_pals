@@ -5,54 +5,48 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.main_div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.puppy_name_list{
+  display: flex;
+  background-color: #4cc9f0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .1rem;
+  border-radius: .3rem;
+  flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.featured_puppy_view{
+  display: flexbox;
 }
 
-.card {
-  padding: 2em;
+.featured_puppy_list{
+  margin-left: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: .2rem;
+  background-color: #4361ee;
+  padding: .2rem;
+  
+  
 }
 
 .featured_puppy_name {
   text-align: center;
   font-size: larger;
+  margin-left: 1rem;
   padding: .2rem;
   background-color: #f72585;
   border-radius: .5rem;
 }
 
-.featured_puppy_list {
-  text-align: left;
-  border-radius: .2rem;
-  background-color: #4361ee;
-  padding: 1rem;
-}
-
-.puppy_name_component {
+.puppy_names_view {
   background-color: #3a0ca3;
   border-radius: .2rem;
 }
