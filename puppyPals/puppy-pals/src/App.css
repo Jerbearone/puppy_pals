@@ -37,6 +37,26 @@
   padding: 2em;
 }
 
+.featured_puppy_name {
+  text-align: center;
+  font-size: larger;
+  padding: .2rem;
+  background-color: #f72585;
+  border-radius: .5rem;
+}
+
+.featured_puppy_list {
+  text-align: left;
+  border-radius: .2rem;
+  background-color: #4361ee;
+  padding: 1rem;
+}
+
+.puppy_name_component {
+  background-color: #3a0ca3;
+  border-radius: .2rem;
+}
+
 .read-the-docs {
   color: #888;
 }
